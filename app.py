@@ -10,7 +10,7 @@ st.markdown("""
     .main { background-color: #ffffff; }
     .stButton>button { width: 100%; border-radius: 10px; }
     </style>
-    """, unsafe_path=True)
+    , unsafe_allow_html=True)
 
 # --- 2. THE PROFESSIONAL SIDEBAR ---
 with st.sidebar:
